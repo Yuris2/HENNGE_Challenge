@@ -18,3 +18,25 @@
 #NO FOR LOOPS => USE RECURSION  
 
 #Solution
+
+#1. Define a function to process a single test case
+    #1a. Read X, which is the expected number of ints
+    #1b. Read next line and parse into a list of ints using .map()
+    #1c. If count of ints != X, return -1
+    #1d. Use .filter() to keep only non-positive numbers
+    #1e. Use .map() to raise each to the 4th power
+    #1f. Return the sum
+
+#2. Recursively collect all results
+    #2a. Base case: 
+        # No test cases left => return accumulated results
+    #2b. Recursion
+        # Process One Case
+        # Add to running sum
+        # Make recursive Call
+
+
+#3. Main function 
+#       Read N
+#       Collect results
+#       Print each on its own line
